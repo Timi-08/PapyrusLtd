@@ -1,6 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import { LoadingOutlined } from "@ant-design/icons";
+import { Spin } from "antd";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
@@ -13,7 +20,50 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-function App() {
+const antIcon = <LoadingOutlined style={{ fontSize: 48 }} spin />;
+
+const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const images = document.querySelectorAll("img");
+    let loadedCount = 0;
+
+    if (images.length === 0) {
+      setLoading(false);
+      return;
+    }
+
+    images.forEach((img) => {
+      if (img.complete) {
+        loadedCount++;
+        if (loadedCount === images.length) setLoading(false);
+      } else {
+        img.addEventListener("load", () => {
+          loadedCount++;
+          if (loadedCount === images.length) setLoading(false);
+        });
+        img.addEventListener("error", () => {
+          loadedCount++;
+          if (loadedCount === images.length) setLoading(false);
+        });
+      }
+    });
+
+    // Fallback in case something fails to load
+    const timeout = setTimeout(() => setLoading(false), 5000);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="loader">
+        <Spin indicator={antIcon} size="large" />
+        <p>Loading...</p>
+      </div>
+    );
+  }
+
   return (
     <Router>
       <Header />
@@ -34,6 +84,6 @@ function App() {
       <Ticker />
     </Router>
   );
-}
+};
 
 export default App;

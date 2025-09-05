@@ -1258,6 +1258,26 @@ button:hover {
 .gallery-item:hover img {
   transform: scale(1.08);
 }
+.loader {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.loader p {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
 
 @media (max-width: 768px) {
   .gallery-hero h1 {
