@@ -1,0 +1,250 @@
+{
+  "categories": [
+    {
+      "name": "Birthday",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Happy Birthday",
+          "price": 5.99,
+          "image": "birthday1.png",
+          "category": "Birthday",
+          "description": "A cheerful birthday card filled with bright colors to celebrate their special day."
+        },
+        {
+          "id": 2,
+          "title": "Cake Celebration",
+          "price": 6.49,
+          "image": "birthday2.png",
+          "category": "Birthday",
+          "description": "A fun birthday card featuring a cake illustration, perfect for sweet celebrations."
+        },
+        {
+          "id": 3,
+          "title": "Golden Wishes",
+          "price": 5.49,
+          "image": "birthday3.png",
+          "category": "Birthday",
+          "description": "A classy birthday card with golden accents to send warm wishes."
+        },
+        {
+          "id": 4,
+          "title": "Confetti Blast",
+          "price": 6.99,
+          "image": "birthday4.png",
+          "category": "Birthday",
+          "description": "A festive birthday card bursting with confetti and joy."
+        },
+        {
+          "id": 5,
+          "title": "Floral Joy",
+          "price": 5.99,
+          "image": "birthday5.png",
+          "category": "Birthday",
+          "description": "A beautiful floral-themed birthday card to brighten their day."
+        },
+        {
+          "id": 6,
+          "title": "Sparkling Candles",
+          "price": 6.29,
+          "image": "birthday6.png",
+          "category": "Birthday",
+          "description": "A sparkling birthday card featuring glowing candles for a magical celebration."
+        }
+      ]
+    },
+    {
+      "name": "Anniversary",
+      "cards": [
+        {
+          "id": 7,
+          "title": "The Golden Years",
+          "price": 7.49,
+          "image": "anniversary1.png",
+          "category": "Anniversary",
+          "description": "A golden anniversary card celebrating years of love and commitment."
+        },
+        {
+          "id": 8,
+          "title": "Together Forever",
+          "price": 6.99,
+          "image": "anniversary2.png",
+          "category": "Anniversary",
+          "description": "A heartfelt card symbolizing eternal love and togetherness."
+        },
+        {
+          "id": 9,
+          "title": "Wedding Anniversary",
+          "price": 7.29,
+          "image": "anniversary3.png",
+          "category": "Anniversary",
+          "description": "A timeless card to celebrate the joy of a wedding anniversary."
+        },
+        {
+          "id": 10,
+          "title": "Silver Hearts",
+          "price": 6.49,
+          "image": "anniversary4.png",
+          "category": "Anniversary",
+          "description": "A silver-toned anniversary card representing love and unity."
+        },
+        {
+          "id": 11,
+          "title": "Timeless Bond",
+          "price": 7.99,
+          "image": "anniversary5.png",
+          "category": "Anniversary",
+          "description": "A romantic card highlighting the beauty of an everlasting bond."
+        },
+        {
+          "id": 12,
+          "title": "Forever",
+          "price": 6.89,
+          "image": "anniversary6.png",
+          "category": "Anniversary",
+          "description": "A simple yet touching card symbolizing love that lasts forever."
+        }
+      ]
+    },
+    {
+      "name": "Friendship",
+      "cards": [
+        {
+          "id": 13,
+          "title": "Caps Off",
+          "price": 5.99,
+          "image": "friendship1.png",
+          "category": "Friendship",
+          "description": "A celebratory card to honor a friend’s graduation or success."
+        },
+        {
+          "id": 14,
+          "title": "New Beginnings",
+          "price": 6.29,
+          "image": "friendship2.png",
+          "category": "Friendship",
+          "description": "A supportive card wishing friends well on their new journey."
+        },
+        {
+          "id": 15,
+          "title": "Proud of You",
+          "price": 6.49,
+          "image": "friendship3.png",
+          "category": "Friendship",
+          "description": "A card to show pride in a friend’s achievements and milestones."
+        },
+        {
+          "id": 16,
+          "title": "Cheers to Success",
+          "price": 6.89,
+          "image": "friendship4.png",
+          "category": "Friendship",
+          "description": "A cheerful card celebrating your friend’s big wins."
+        },
+        {
+          "id": 17,
+          "title": "You Did It!",
+          "price": 5.49,
+          "image": "friendship5.png",
+          "category": "Friendship",
+          "description": "An encouraging card to celebrate a friend’s accomplishments."
+        },
+        {
+          "id": 18,
+          "title": "Way to Go",
+          "price": 6.99,
+          "image": "friendship6.png",
+          "category": "Friendship",
+          "description": "A fun card to congratulate your friend’s hard work and success."
+        }
+      ]
+    },
+    {
+      "name": "New Year",
+      "cards": [
+        {
+          "id": 19,
+          "title": "Happy New Year",
+          "price": 5.99,
+          "image": "newyear1.png",
+          "category": "New Year",
+          "description": "A joyful card to wish friends and family a happy new year."
+        },
+        {
+          "id": 20,
+          "title": "2026 New Year",
+          "price": 6.49,
+          "image": "newyear2.png",
+          "category": "New Year",
+          "description": "A stylish card to welcome the year 2026 with celebration."
+        },
+        {
+          "id": 21,
+          "title": "Chinese New Year",
+          "price": 5.49,
+          "image": "newyear3.png",
+          "category": "New Year",
+          "description": "A festive card honoring Chinese New Year traditions."
+        },
+        {
+          "id": 22,
+          "title": "Welcome 2026",
+          "price": 6.99,
+          "image": "newyear4.png",
+          "category": "New Year",
+          "description": "A bright and cheerful card to ring in the new year 2026."
+        },
+        {
+          "id": 23,
+          "title": "New Year Cheers",
+          "price": 5.99,
+          "image": "newyear5.png",
+          "category": "New Year",
+          "description": "A festive card with cheers and good vibes for the new year."
+        }
+      ]
+    },
+    {
+      "name": "Mother & Fathers Day",
+      "cards": [
+        {
+          "id": 24,
+          "title": "Mother's Day Card",
+          "price": 120,
+          "image": "mother1.png",
+          "category": "Mother's Day",
+          "description": "A loving card to show appreciation and love for moms."
+        },
+        {
+          "id": 25,
+          "title": "Father's Day Card",
+          "price": 110,
+          "image": "father1.png",
+          "category": "Father's Day",
+          "description": "A heartfelt card to celebrate and thank dads."
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "cards": [
+        {
+          "id": 37,
+          "title": "Happy Retirement",
+          "price": 6.99,
+          "image": "other1.png",
+          "category": "Other",
+          "description": "A thoughtful card celebrating the joy of retirement."
+        },
+        {
+          "id": 38,
+          "title": "Thank You, Teacher",
+          "price": 6.49,
+          "image": "other2.png",
+          "category": "Other",
+          "description": "A grateful card to show appreciation for a teacher’s guidance."
+        }
+      ]
+    }
+  ]
+}
