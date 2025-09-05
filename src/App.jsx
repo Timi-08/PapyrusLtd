@@ -4,7 +4,7 @@ import { Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
-import SiteMap from "./pages/SiteMap";
+import SiteMap from "./pages/Sitemap";
 import Contact from "./pages/Contact";
 import CategorySection from "./components/CategorySection";
 import ItemDetails from "./pages/ItemDetails";
