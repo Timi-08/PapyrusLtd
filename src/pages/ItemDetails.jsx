@@ -33,7 +33,6 @@ const ItemDetails = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
