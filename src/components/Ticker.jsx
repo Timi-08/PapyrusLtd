@@ -45,8 +45,10 @@ const Ticker = () => {
   }, []);
 
   return (
-    <div className="ticker ">
-      {currentDate} | 📍 {location}
+    <div className="ticker-wrapper">
+      <div className="ticker-content">
+        {currentDate} | 📍 {location}
+      </div>
     </div>
   );
 };
