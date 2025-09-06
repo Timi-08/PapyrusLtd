@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Ticker.css"; // we’ll add styles here
 
 const Ticker = () => {
   const [location, setLocation] = useState("Fetching location...");
@@ -45,8 +46,10 @@ const Ticker = () => {
   }, []);
 
   return (
-    <div className="ticker ">
-      {currentDate} | 📍 {location}
+    <div className="ticker-wrapper">
+      <div className="ticker-content">
+        {currentDate} | 📍 {location}
+      </div>
     </div>
   );
 };
